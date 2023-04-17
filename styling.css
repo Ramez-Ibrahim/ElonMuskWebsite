@@ -1,0 +1,538 @@
+		/*This code turns all the h2 headers to red*/
+		h2 {color: rgb(0,0,0); font-family: "Flix", "san-serif"; letter-spacing: 5px;} 
+		/*This code turns the background gray*/
+		body {background-color: rgb(240,242,245);}
+		/*This code turns the Controls header to neon blue*/
+		#Controls {color: rgb(12, 12, 20); font-size: x-large; letter-spacing: 3px;} 
+		/*This code turns the Instructions of the Controls to navy blue*/
+		.Instructions {color: rgb(76, 164, 144); font-size: x-large; letter-spacing: 1px;}
+		/*This code turns the control functions into green*/ 
+		.Start {color: rgb(0,233,0);}
+		/*This code adds a border around the simulation paragraph*/
+		p.solid { font-family: "Lato"}
+		/*This code adds a border around the table*/
+		table, td, th {border: 3px; border-style: solid;  border-color: #00acdf;}
+		/*This code adjusts the width of the table*/
+		table {width: 100%; border-collapse: collapse;}
+		/*This code expands the first row of the table*/
+		th {height: 100px;} 
+		/*This code align the text and puts it in the center*/
+		td {text-align: center; height: 100px; font-size: large; font-family: 'Quicksand', sans-serif;}
+		/*This code changes the background of the first row to lime green and the headers to white*/
+		th{background-color: rgb(0, 128, 191); color: white; font-size: x-large; font-family: 'Pacifico', cursive; letter-spacing: 4px;}
+		/*This code is used to change the whole site into the Georgia text font*/
+		p {font-family: "Lato", serif; padding-left:10px; padding-right:10px;} 
+		/*This code turns the controls header into the google font Stalinist One but if the font not found it will go to cursive*/
+		#Controls {font-family: 'Games', sans-serif;}
+		/*This code turns the instructions into the Stalinist One text font but if it is not found then it will go to cursive*/
+		.Instructions {font-family: 'Games', sans-serif;}
+		/*This code turns the start class into the Stalinist One font but if the font is not found it will go to cursive*/
+		.Start {font-family: "Stalinist One", cursive;}
+		/*This code turns all the paragraphs to pixel size 18*/
+		p {font-size: 18px;}
+		/*This code turns the Controls header to 1.5 em*/
+		#Controls {font-size: 1.4em;}
+		/*This code turns the information that is in fun facts to pixel size 20*/
+		.List {font-size: 20px;}
+		/*This code turns the imformation that is in the fun facts to font cursive*/
+		.List {font-family: "Caudex";}
+		/*This code turns the information that is in the profile to pixel size 19*/
+		.ProfileS {font-size: 30px;}
+		/*This code turns the information that is in the jump to sections to pixel size 19*/
+		.Sections {font-size: 21px;}
+		/*This code turns the start words into italic*/
+		.Start {font-style: italic;}
+		/*This code justifies the site*/
+		p {text-align: justify;}
+		/*This code removes the underlines of the hyperlinks*/
+		a {text-decoration: none; font-family: 'Caudex', serif;}
+		/*This code changes the text height to 23.5 pixels*/
+		p {line-height: 23.5px;}
+		/*This code moves the title of the site to the center*/
+		h1{text-align: center;}
+		/*This code underlines all the em tags*/
+		em{text-decoration: underline;}
+		/*This code turns the color of the links to blue when not clicked on*/
+		a:link {color: #1da1f2; text-decoration: none;}
+		/*This code is turns the color of the links to red when clicked on*/
+		/*This code turns the color of the links to white when hoverd over*/
+		a:hover {color: #006241; text-decoration: underline;}
+		/*This code adds the website header*/
+		.header {background-image: linear-gradient(to right, #26d0ce, #1a2980); padding: 20px; text-align: center; margin: -8px; font-family: "Hikou", "serif"; font-size: x-large; letter-spacing: 3px; color: white}
+		/*This code creates the box of the navigation bar*/
+		* {box-sizing: border-box;}
+		/*This code styles the top of the navigation bar*/
+		.topnav {overflow: hidden; background-color: rgb(30, 61, 235); margin: -8px;}
+		/*This code styles the topnav links*/
+		.topnav a {float: left; display: block; color: rgb(255, 255, 255); text-align: center; padding: 14px 16px; text-decoration: none; font-size:14px; font-family: 'Open Sans', sans-serif;}
+		/*This code changes the color of the hover*/
+		.topnav a:hover {background-color: blue; color: red;}
+		/*This code is used to add the foter footer for the website*/
+		.footer {background-image: linear-gradient(to right, #26d0ce, #1a2980); padding: 25px; text-align: center; margin: -8px;}
+		/*This code turns the Profile section to the font Georgia*/
+		.ProfileS {font-family: "Urbano", serif; letter-spacing: 4px;}
+		/*This code adds the Facts paragraph to the side of the Fun Facts list*/
+		.Fact  {float: right; margin-top: -50px;}
+		/*This code adds a border around the Facts paragraph*/
+		
+		/*This code is used to change the Facts paragraph to font size 20px*/
+		.Fact {font-size: 20px;}
+		/*This code is used to change the font to cursive*/
+		.Fact {font-family: "Caudex", serif;}
+		/*This code is used to move the picture of Elon Musks son to the right*/
+		.ElonMuskSon {float: right;}
+		/*This makes the size of the font 20*/
+		#DownloadLink {font-size: 20px;}
+		/*This moves the Copyright to the right side of the footer*/
+		.Copywrite {text-align: left; color: white;} 
+		/*This chnages the Copywrite font to the Goolge font Shippori Mincho B1 if the font is not found it is moved to the font serif*/
+		.Copywrite {font-family: "Shippori Mincho B1", serif;}
+		/*This chnages the Copyright font to the px size of 15*/
+		.Copywrite {font-size: 15px;}
+		.dropdown {float: left; overflow: hidden;}
+		.dropdown .dropbtn {font-size: 16px; border: none; outline: none; color: white; padding: 14px 16px; background-color: inherit; font-family: inherit; margin: 0; font-size:14px; font-family: 'Open Sans', sans-serif;}
+		.topnav a:hover, .dropdown:hover .dropbtn {background-color: #79e7e7;; color: black;}
+		.dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
+		.dropdown-content a {float: none; color: black; padding: 12px 16px; text-decoration: none; display: block; text-align: left;}
+		.dropdown-content a:hover {background-color: #ddd;}
+		.dropdown:hover .dropdown-content {display: block;}
+		background
+				/* Slideshow container */
+		.slideshow-container {
+			position: relative;
+			background: #d80e0ef1;
+			width: 400px;
+  		}
+  		/* Slides */
+  		.mySlides {
+			display: block;
+			padding: 80px;	
+			text-align: center;
+			font-family: "Bison", "san-serif";
+			font-size: xx-large;
+			color: #DE5935;
+  		}
+
+		.author {
+			font-family: "Bison", "san-serif";
+			font-size: x-large;
+			color: #5AC3B0;
+			text-align: center;
+		}
+  
+  		/* Next & previous buttons */
+  		.prev, .next {
+			cursor: pointer;
+			position: absolute;
+			top: 50%;
+			width: auto;
+			margin-top: 50px;
+			padding: 16px;
+			color: #888;
+			font-weight: bold;
+			font-size: 20px;
+			border-radius: 0 3px 3px 0;
+			user-select: none;
+  		}
+  
+  		/* Position the "next button" to the right */
+  		.next {
+			position: absolute;
+			right: 0;
+			border-radius: 3px 0 0 3px;
+  		}
+  
+  		/* On hover, add a black background color with a little bit see-through */
+  		.prev:hover, .next:hover {
+			background-color: rgba(0,0,0,0.8);
+			color: white;
+  		}
+  
+  		/* The dot/bullet/indicator container */
+  		.dot-container {
+			text-align: center;
+			padding: 0px;
+			margin-top: -60px;
+		
+			
+  		}
+  
+  		/* The dots/bullets/indicators */
+  		.dot {
+			cursor: pointer;
+			text-align: center;
+			height: 15px;
+			width: 15px;
+			margin: 0 2px;
+			background-color: #bbb;
+			border-radius: 50%;
+			display: inline-block;
+			transition: background-color 0.6s ease;
+  		}		
+  
+  		/* Add a background color to the active dot/circle */
+  		.active, .dot:hover {
+			background-color: #717171;
+  		}
+		
+  		/* Add an italic font style to all quotes */
+  		q {font-style: italic;}
+  
+  		/* Add a blue color to the author */
+  		.author {text-align: center;}
+  		
+		.search-bar{
+			width: 1255px;
+			height: 75px;
+			background: #004e9d;
+			align-items: center;
+			border-radius: 60px;
+			padding: 10px 20px;
+			backdrop-filter: blur(4px) saturate(180%);
+		}
+
+		.search-bar input{
+			background: transparent;
+			width: 1135px;
+			border: none;
+			outline: none;
+			padding: 24px 20px;
+			font-size: 18px;
+			color: #cac7ff;
+		}
+		
+		::placeholder{
+			color: #cac7ff;
+			font-size: 25px;
+	
+		}
+		
+		.search-bar button img{
+			width: 25px;
+		}
+
+		.search-bar button{
+			border: 0;
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+			background: #58629b;
+			cursor: pointer;
+		}
+
+		.stesla{
+			transition: 0.5s;
+		      border: 5px solid #32CD32;
+		      padding: 1px 85px;
+			border-radius: 25px;
+			position: left;
+			margin-left: 10px;
+			margin-right: 30px;
+
+		}
+	
+
+		.stesla:hover{
+			background: #E31937;
+			box-shadow: 0 0 35px #e82127;
+      		border: 5px solid #e82127;
+			border-radius: 25px;
+
+		}
+		
+		.works{
+			transition: 0.5s;
+		      border: 5px solid #32CD32;
+		      padding: 1px 85px;
+			border-radius: 25px;
+			position: left;
+			margin-top: 150px;
+			margin-right: 30px;
+
+		}
+	
+
+		.works:hover{
+			background: #E31937;
+			box-shadow: 0 0 35px #e82127;
+      		border: 5px solid #e82127;
+			border-radius: 25px;
+
+		}
+		
+		.sbitcoin{
+			transition: 0.5s;
+		      border: 5px solid #32CD32;
+		      padding: 1px 85px;
+			border-radius: 25px;
+			position: right;
+			margin-right: 30px;
+
+		}
+	
+
+		.sbitcoin:hover{
+			background: #F2A900;
+			box-shadow: 0 0 35px #f2a900;
+      		border: 5px solid #f2a900;
+			border-radius: 25px;
+
+		}
+
+		.spacex{
+			transition: 0.5s;
+		      border: 5px solid #32CD32;
+		      padding: 1px 85px;
+			border-radius: 25px;
+			position: right;
+			margin-right: 30px;
+
+		}
+	
+
+		.spacex:hover{
+			background: #A7A9AC;
+			box-shadow: 0 0 35px #A7A9AC;
+      		border: 5px solid #A7A9AC;
+			border-radius: 25px;
+
+		}
+
+		.sethereum{
+			transition: 0.5s;
+		      border: 5px solid #32CD32;
+		      padding: 1px 85px;
+			border-radius: 25px;
+			position: right;
+			margin-right: 30px;
+
+		}
+	
+
+		.sethereum:hover{
+			background: #79e7e7;
+			box-shadow: 0 0 35px #79e7e7;
+      		border: 5px solid #79e7e7;
+			border-radius: 25px;
+
+		}
+
+		.twitter{
+			transition: 0.5s;
+		      border: 5px solid #32CD32;
+		      padding: 1px 85px;
+			border-radius: 25px;
+			position: right;
+			margin-right: 30px;
+
+		}
+	
+
+		.twitter:hover{
+			background: #36D8FF;
+			box-shadow: 0 0 35px #36D8FF;
+      		border: 5px solid #36D8FF;
+			border-radius: 25px;
+
+		}
+
+		.sdogecoin{
+			transition: 0.5s;
+		      border: 5px solid #32CD32;
+		      padding: 1px 85px;
+			border-radius: 25px;
+			position: right;
+			margin-right: 30px;
+
+		}
+	
+
+		.sdogecoin:hover{
+			background: #ffecb3;
+			box-shadow: 0 0 35px #ffecb3;
+      		border: 5px solid #ffecb3;
+			border-radius: 25px;
+
+		}
+
+		.boring{
+			transition: 0.5s;
+		      border: 5px solid #32CD32;
+		      padding: 1px 85px;
+			border-radius: 25px;
+			position: right;
+			margin-right: 30px;
+
+		}
+	
+
+		.boring:hover{
+			background: #FFFFFF;
+			box-shadow: 0 0 35px #FFFFFF;
+      		border: 5px solid #FFFFFF;
+			border-radius: 25px;
+
+		}
+		
+		.BackTop{
+			position: fixed;
+			right: 10px;
+			bottom: 10px;
+			cursor: pointer;
+		}
+		
+		.controlicons{
+			float: left;    
+ 			margin: 0 20px 0 10px;
+			
+		}
+		
+		@font-face {
+			font-family: "Bison";
+			src: url(./Fonts/Bison-Bold.ttf);
+		}
+		
+		@font-face {
+			font-family: "Flix";
+			src: url(./Fonts/Flix-Normal.ttf);
+		}
+
+		@font-face {
+			font-family: "Hikou";
+			src: url(./Fonts/Hikou-Regular.ttf);
+		}
+		
+		@font-face {
+			font-family: "Urbano";
+			src: url(./Fonts/URBANO-Bold.ttf);
+		}
+		
+		@font-face {
+			font-family: "LilGrotesk";		
+			src: url(./Fonts/LilGrotesk-Regular.otf);
+		}
+
+		.profileimg {
+			float: right;
+			margin-top: -230px;
+		}
+		
+		h4 {
+			font-family: "LilGrotesk";
+		}
+
+		hr.dashed {
+ 			 border-top: 3px dashed #192F01;
+			 margin-top: 35px;
+		}
+		@font-face {
+			font-family: "Lato";
+			src: url(./Fonts/Lato-Regular.ttf);
+		}
+		.center {
+ 			margin-left: 135px;
+		}
+		
+		.vl {
+  			border-left: 3px dotted #192F01;
+			height: 415px;
+			margin-left: 580px;
+			position: absolute;
+			margin-top: -50px; 
+
+		}
+		
+		h3 {
+			font-family: 'Caudex', serif;
+		}
+		
+		.container {
+			width: 320px; height: 220px; border: 5px solid 	#73142d;
+		}
+		.books {
+				margin-left:100px;
+		}
+		.works{
+			transition: 0.5s;
+		      border: 5px solid #FFFFFF;
+		      padding: 1px 50px;
+			border-radius: 25px;
+			position: left;
+			margin-left: 10px;
+			margin-right: 30px;
+			margin-top:-10px;
+
+		}
+	
+
+		.works:hover{
+			background: #39FF14;
+			box-shadow: 0 0 35px #39FF14;
+      		border: 5px solid #39FF14;
+			border-radius: 25px;
+
+		}
+		.login{
+			transition: 0.5s;
+		      border: 5px solid #FFFFFF;
+		      padding: 1px 50px;
+			border-radius: 25px;
+			position: left;
+			margin-left: 10px;
+			margin-right: 30px;
+			margin-top:-10px;
+
+		}
+	
+
+		.login:hover{
+			background: #39FF14;
+			box-shadow: 0 0 35px #39FF14;
+      		border: 5px solid #39FF14;
+			border-radius: 25px;
+
+		}
+		.news{
+			transition: 0.5s;
+		      border: 5px solid #FFFFFF;
+		      padding: 1px 50px;
+			border-radius: 25px;
+			position: left;
+			margin-left: 10px;
+			margin-right: 30px;
+			margin-top:-10px;
+
+		}
+	
+
+		.news:hover{
+			background: #39FF14;
+			box-shadow: 0 0 35px #39FF14;
+      		border: 5px solid #39FF14;
+			border-radius: 25px;
+
+		}
+		.End {
+			font-family: 'Playfair Display SC', serif;
+			font-size: x-large;
+
+		}
+		
+		.home{
+			transition: 0.5s;
+		      border: 5px solid #FFFFFF;
+		      padding: 10px 20px;
+			border-radius: 25px;
+			position: left;
+			margin-left: 20px;
+			margin-right: 30px;
+			margin-top:-500px;
+
+		}
+		.home:hover{
+			background: #39FF14;
+			box-shadow: 0 0 35px #39FF14;
+      		border: 5px solid #39FF14;
+			border-radius: 25px;
+
+		}
