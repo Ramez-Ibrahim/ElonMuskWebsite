@@ -26,10 +26,18 @@
 		</div>
 		<div class="form">
 			<h1 class ="heading">Register</h1>
-			<input type="text" placeholder="name" autocomplete="off" class="name" required>
+			<input type="text" placeholder="name" id="name" autocomplete="off" class="name"  required>
 			<input type="email" placeholder="email" autocomplete="off" class="email" required>
 			<input type="password" placeholder="password" autocomplete="off" class="password" required>
-			<button class = "submit-btn">register </button>
+			<button onclick="myFunction(); https://ramez08.github.io/Login%20-%20Copy.html;" class="submit-btn">register</button>
+			
+			<script>
+				function myFunction() {
+  				var x = document.getElementById("name").value;
+			 	// Store the value of 'x' in localStorage
+			  	localStorage.setItem("name", x);
+			}
+			</script>
 		</div>	
 	</div>
 	
