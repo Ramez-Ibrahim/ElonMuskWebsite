@@ -1,29 +1,44 @@
+<!-- This is an HTML document that displays a user greeting and a logout button. -->
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	<!-- This part contians the website titile and the site language identification! -->
+	<!-- This part contains the website title and the site language identification. -->
 		<title> Elon Musk Biography </title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- This link loads the Stalinist One font from Google Fonts. -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Stalinist+One&display=swap" rel="stylesheet">
+		<!-- This link loads the Shippori Mincho B1 font from Google Fonts. -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1&display=swap" rel="stylesheet">
+		<!-- This link loads the stylinglogin.css stylesheet. -->
 		<link href="./stylinglogin.css" rel="stylesheet" type="text/css">
+		<!-- This link loads the Open Sans font from Google Fonts. -->
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+		<!-- This link loads the Site Icon.jpg image as the website's favicon. -->
 		<link rel="shortcut icon" type="x-icon" href="./Media/Site Icon.jpg">
+		<!-- This link loads the Caudex font from Google Fonts. -->
 		<link href="https://fonts.googleapis.com/css2?family=Caudex&display=swap" rel="stylesheet">
-    		<link href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
+		<!-- This link loads the games font from cdnfonts.com. -->
+		<link href="https://fonts.cdnfonts.com/css/games" rel="stylesheet">
+		<!-- This link loads the Caudex font from Google Fonts. -->
 		<link href="https://fonts.googleapis.com/css2?family=Caudex&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Caudex&display=swap" rel="stylesheet">
+		<!-- This link loads the Pacifico font from Google Fonts. -->
 		<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+		<!-- This link loads the Quicksand font from Google Fonts. -->
 		<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<!-- This link loads the scripts.js stylesheet. -->
 		<script src="scripts.js"></script>
 	</head>
 	<body>
+		<!-- This div contains the main content of the website. -->
 		<div class="container">
+			<!-- This button logs the user out of the website. -->
 			<button class="logout" onclick="window.location.href='https://ramez08.github.io/';"> log out </button>
+			<!-- This h1 element displays the user's name. -->
 			<h1 id="demo" class="greeting"></h1>
+			<!-- This script gets the value of the "name" key from localStorage and sets the text content of the h1 element to "Hello " followed by the value of "name". -->
 			<script>
 				// Get the value of "name" from localStorage
 				var name = localStorage.getItem("name");
