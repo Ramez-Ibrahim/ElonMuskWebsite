@@ -1,9 +1,11 @@
+/* Set margin and padding to 0 for all elements, and use the border-box model for sizing */
 *{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+/* Set the body to be positioned relatively, and take up the entire viewport */
 body{
 	position: relative;
 	width: 100%;
@@ -12,22 +14,29 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* Set a gradient background that goes from #26d0ce to #1a2980 */
 	background-image: linear-gradient(to right, #26d0ce, #1a2980);
+	/* Make sure the background covers the entire body */
 	background-size: cover;
+	/* Center the background */
 	background-position: center;
+	/* Use the 'roboto' font family, with fallback to sans-serif */
 	font-family: "roboto", sans-serif;
 }
 
+/* Set up a container element that is positioned relatively, and has a 5px white border */
 .container{
 	position: relative;
 	width: 90%;
 	height: 87vh;
 	border: 5px solid #fff;
+	/* Center the container in the middle of the body */
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+/* Set up a logout button that is positioned absolutely in the top right corner of the body */
 .logout{
 	position: absolute;
 	top: 10px;
@@ -42,13 +51,13 @@ body{
 	outline: none;
 	border: none;
 }
-	
+
+/* Set up a large greeting text that uses the 'dosis' font family, is capitalized, and has a white color */
 .greeting{
 	font-family: 'dosis';
 	font-size: 100px;
 	color: #fff;
+	/* Make the text bold */
 	font-weight: 800;
 	text-transform: capitalize;
 }
-
- 	
