@@ -9,7 +9,7 @@ Welcome to the **Elon Musk Biography Website** repository! This website is dedic
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [Technologies Used](#Technologies Used)
+- [TechnologiesUsed](#TechnologiesUsed)
 - [License](#license)
 
 ## Introduction
@@ -72,7 +72,7 @@ Contributions to this project are more than welcome! If you would like to contri
 
 Please ensure that your contributions align with the overall style and content of the website.
 
-## Technologies Used
+## TechnologiesUsed
 This website was developed using HTML, CSS, and JavaScript. It served as an opportunity for me to showcase my skills and knowledge in front-end web development. By utilizing these technologies, I was able to create an interactive and visually appealing biography website for Elon Musk. The combination of HTML for structure, CSS for styling, and JavaScript for interactivity allowed me to deliver a seamless user experience.
 
 ## License
