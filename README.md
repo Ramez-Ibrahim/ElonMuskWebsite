@@ -9,7 +9,7 @@ Welcome to the **Elon Musk Biography Website** repository! This website is dedic
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [TechnologiesUsed](#Technologies Used)
+- [Technologies Used](#TechnologiesUsed)
 - [License](#license)
 
 ## Introduction
