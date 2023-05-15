@@ -56,6 +56,6 @@ This project is licensed under the [MIT License](LICENSE), which allows you to u
 
 ---
 
-We hope you find this website informative and engaging. If you have any suggestions, feature requests, or would like to report an issue, please feel free to reach out to us. Your feedback is valuable in improving this project!
+We hope you find this website informative and engaging. If you have any suggestions, feature requests, or would like to report an issue, please feel free to reach out. Your feedback is valuable in improving this project!
 
-If you need any specific information or have any preferences for the design or content, please let us know, and we will tailor the website accordingly.
+
