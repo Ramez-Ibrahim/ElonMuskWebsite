@@ -6,7 +6,7 @@ Welcome to the **Elon Musk Biography Website** repository! This website is dedic
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Installation](#installation)
+- [Access](#Access)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Technologies Used](#TechnologiesUsed)
@@ -26,35 +26,9 @@ This website offers the following features:
 - **Quotes**: Read some of Elon Musk's most thought-provoking and inspiring quotes.
 - **Resources**: Find a curated collection of articles, interviews, videos, and books related to Elon Musk for further exploration.
 
-## Installation
+## Access
 
-To run this website locally, follow these steps:
-
-1. Clone the repository:
-
-   ```shell
-   git clone https://github.com/your-username/elon-musk-biography-website.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```shell
-   cd elon-musk-biography-website
-   ```
-
-3. Install the required dependencies:
-
-   ```shell
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```shell
-   npm start
-   ```
-
-5. Open your web browser and visit `http://localhost:3000` to view the website.
+To access this g site go to: https://ramez08.github.io/
 
 ## Usage
 
